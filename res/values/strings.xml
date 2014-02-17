@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BW Drawing</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="brush">Brush</string>
+    <string name="Erase">Erase</string>
+    <string name="Clear">Clear</string>
+    <string name="brush_size">Brush Size</string>
+    <string name="brush_color">Brush Color</string>
+
+    <string-array name="brush_size_choice">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="brush_color">
+        <item>Grayscale</item>
+        <item>Colorscale</item>
+    </string-array>
+
+    <string name="title_activity_pain">PainActivity</string>
+
+</resources>

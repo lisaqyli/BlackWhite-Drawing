@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCCCCC"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:prompt="@string/brush_color" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:prompt="@string/brush_size" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="93dp"
+        android:layout_height="37dp"
+        android:layout_margin="2dp"
+        android:onClick="clean"
+        android:text="@string/Clear" />
+
+</LinearLayout>
